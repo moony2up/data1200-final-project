@@ -1,0 +1,230 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  img {
+    border-radius: 2%; /* Makes the image round */
+  }
+  
+  /* Header and navigation bar  */
+  header {
+    background-color: #ffd500;
+    padding: 15px;
+    text-align: center;
+    color: black;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    padding: 10px;
+  }
+  p {
+    font-size: 30px;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+  }
+  
+  nav a:hover {
+    background-color: #777;
+  }
+  
+  /* Home page 1st section with the welcoming campus Image   */
+  
+  section {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  section img {
+    max-width: 80%;
+    height: auto;
+  }
+  
+  /* side by side containers modification related to colors , fonts and its properties   */
+  .container {
+    display: flex;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  
+  .leftdiv {
+    display: block;
+    width: 50%;
+    background: #ffd500;
+    padding-left: 50px;
+  }
+  .rightdiv {
+    flex-grow: 1;
+    background: #f2f2f2;
+    padding-left: 50px;
+  }
+  
+  .container2 {
+    display: flex;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  
+  .leftdiv2 {
+    width: 80%;
+    background-color: rgb(153, 0, 43);
+    padding-left: 50px;
+  }
+  
+  .leftdiv2 img {
+    width: 80%;
+    padding: 5%;
+  }
+  .rightdiv2 {
+    flex-grow: 1;
+    background-color: rgb(153, 0, 43);
+    padding: 5%;
+    color: white;
+  }
+  
+  /* the News section  Aktuelt frå OsloMet  */
+  
+  .newscontainer {
+    display: flex;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+  
+  .newsleftdiv2 {
+    width: 50%;
+  }
+  .newsleftdiv2 img {
+    max-width: 100%;
+    padding: 5%;
+  }
+  .newsrightdiv2 {
+    flex-grow: 1;
+    padding: 5%;
+    color: black;
+    max-width: 50%;
+  }
+  
+  .news {
+    padding: 3%;
+  }
+  
+  /* the red paragraph in index page  */
+  
+  .paragraph {
+    background-color: #000064;
+    color: white;
+    padding: 2%;
+  }
+  
+  button {
+    background-color: #e5c000;
+    border: none;
+    color: black;
+    font-weight: 600;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  /* the Footer used  */
+  
+  footer {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer a {
+    padding: 10px;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-links li {
+    margin: 0 15px;
+  }
+  
+  .footer-links a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    margin: 0 10px;
+  }
+  
+  .social-icons a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+  }
+  
+  /* the responsive part for fonts based on device size by PX  */
+  
+  @media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    p {
+      font-size: 15px;
+    }
+  
+    a {
+      font-size: 15px;
+    }
+  }
+  
+  @media only screen and (max-width: 768px) {
+    /* For tablets: */
+    p {
+      font-size: 25px;
+    }
+  
+    a {
+      font-size: 25px;
+    }
+  }
+  
+  @media only screen and (max-width: 992px) {
+    /* For desktop: */
+    p {
+      font-size: 30px;
+    }
+  
+    a {
+      font-size: 30px;
+    }
+  }
+  
+  /* Important Notes */
+  
+  /* this code is writen by the assistance of google search for some syntax and code examples from web3schools and stackoverflow*/
+  
+  /* examples */
+  /* https://www.w3schools.com/howto/howto_css_images_side_by_side.asp*/
+  /* https://www.w3schools.com/css/css_font_size.asp*/
+  
+  /* the styling is used in all the other pages  but mainly was used for the index page*/
